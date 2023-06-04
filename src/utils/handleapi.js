@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl="http://localhost:5000"
+const baseUrl="https://crud-backend-ta5u.onrender.com"
 const getAllTodo=(setTodo)=>{
     axios.get(baseUrl)
     .then(({data})=>{
